@@ -26,3 +26,12 @@ body {
     border-radius: 8px;
     margin-bottom: 20px;
 }
+
+.two-columns {
+    display: flex;
+    gap: 40px;
+}
+.two-columns .left,
+.two-columns .right {
+    flex: 1;
+}
