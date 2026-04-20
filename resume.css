@@ -35,3 +35,14 @@ body {
 .two-columns .right {
     flex: 1;
 }
+
+@media (max-width: 700px) {
+    #container {
+        margin: 0;
+        padding: 20px;
+        border-radius: 0;
+    }
+    .two-columns {
+        flex-direction: column;
+    }
+}
