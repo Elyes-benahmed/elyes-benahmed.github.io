@@ -46,3 +46,22 @@ body {
         flex-direction: column;
     }
 }
+
+body.dark {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+}
+
+body.dark #container {
+    background-color: #16213e;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+body.dark .subtitle,
+body.dark h3 {
+    color: #7eb8f7;
+}
+
+body.dark a {
+    color: #90cdf4;
+}
