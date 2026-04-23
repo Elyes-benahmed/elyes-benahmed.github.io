@@ -20,8 +20,8 @@ body {
 }
 
 #photo {
-    width: 180px;
-    height: 180px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 20px;
