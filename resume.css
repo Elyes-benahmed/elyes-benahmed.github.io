@@ -48,11 +48,11 @@ body {
 }
 body.dark {
     background-color: #0f0f0f;
-    color: #f0f0f0;          /* texte presque blanc, très lisible */
+    color: #f0f0f0;     
 }
  
 body.dark #container {
-    background-color: #1e1e1e;
+    background-color: #000000 ;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
 }
  
@@ -68,7 +68,7 @@ body.dark h3 {
  
 body.dark p,
 body.dark li {
-    color: #d4d4d4;          /* légèrement moins blanc que les titres */
+    color: #d4d4d4;       
 }
  
 body.dark a {
